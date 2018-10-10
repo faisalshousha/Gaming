@@ -20,6 +20,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
             font-family: 'Port Lligat Slab', serif;
            margin-top: 44%
 }
+html, body{width:100%; height:100%; padding:0px; margin:0px}
 .navbar {
     overflow: hidden;
     background-color: #000;
@@ -30,11 +31,10 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     height: 3.5%;
     color: #fcfcfc;
     text-transform: uppercase;
-    padding-top: 6px;
     letter-spacing: 1px;
     font-family: 'Emilys Candy', cursive;
     z-index:1;
-
+    width: 100%;
 }
 .navbar a {
     color: #f2f2f2;
@@ -131,7 +131,7 @@ caption {
            margin-bottom: 0;
 }
 #gallery ul {list-style-type: none;
-              margin-right: 10%;
+              margin-right: ;
 }
 #gallery li { display: inline; 
      float: left;
@@ -145,7 +145,7 @@ caption {
            
 }
 #gallery span { position: absolute;
-                left: -2500px;
+                left: -1300px;
                 top: -11px;
 }
 #gallery a:hover span {     
@@ -172,16 +172,16 @@ caption {
         background-color: #000;
         position: fixed;
         top: 0;
-        width: 100%;
         text-align: center; 
         left: 0;
         color: #fcfcfc;
         text-transform: uppercase;
-        padding: 3px;
         letter-spacing: 1px;
         height: 12%;
         font-size: 80%;
         z-index:1;
+        padding: 0;
+        width: 100%;
 }
     .navbar a {
         padding-top: 0;
