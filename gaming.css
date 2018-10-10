@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
+@import url('https://fonts.googleapis.com/css?family=Port+Lligat+Slab');
+@import url('https://fonts.googleapis.com/css?family=Maiden+Orange');
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+* {
+    box-sizing: border-box;
+}
+#wrapper { max-width: 35%;
+           margin-left: auto;
+           margin-right: auto;
+           margin-bottom: 3%;
+           margin-top: 3%;
+           font-family: 'Port Lligat Slab', serif;
+
+}
+#wrapper2 { max-width: 100%;
+           margin-left: auto;
+           margin-right: auto;
+            margin-bottom: -2%;
+            font-family: 'Port Lligat Slab', serif;
+           margin-top: 44%
+}
+.navbar {
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: center; 
+    left: 0;
+    height: 3.5%;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    font-family: 'Emilys Candy', cursive;
+    z-index:1;
+
+}
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: red;
+}
+header {
+    margin-top: 4vh;
+}
+img.header{
+    width: 100%;
+}
+img.left{
+    float: left;
+    width: 100%;
+    border: 1.6px solid black;
+    border-left-style: none;
+}
+img.right{
+    float: right;
+    width: 100%;
+    border: 1.6px solid red;
+    border-right-style: none;
+}
+.left1{
+    float: left;
+    width: 48.5%;
+}
+.right1{
+    float: right;
+    width: 48.5%;
+}
+
+h2 {
+    font-family: 'Maiden Orange', cursive;
+    letter-spacing: 1px;
+    color: #ee1414;
+}
+
+body {
+    background-color: white;
+    color: #444444;
+    margin-left: 0;
+    margin-right: 0%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.75px;
+
+}
+.double {
+    max-width: 100%;
+    margin-bottom: 33%;
+}
+
+
+table { 
+        margin-left: auto; margin-right: auto;
+        border: 1.6px solid brown; 
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 1em;
+        color: #444444;
+        font-family: 'Port Lligat Slab', serif;
+}
+td{ padding: 0.5em; 
+        border: 1.6px solid brown;
+}
+a:hover {
+    color: red;
+}
+ a:visited, a:link, a:active {
+            text-decoration: none;
+}
+tr:nth-of-type(even) {
+    background-color: #dadad7;
+}
+caption { 
+          margin: 1em;
+          font-weight: bold;
+          font-size: 120%;
+          font-family: 'Maiden Orange', cursive;
+          letter-spacing: 1px;
+}
+
+
+
+#gallery { position: relative;
+           width: 830px; 
+           margin-left: -2%;
+           margin-bottom: 0;
+}
+#gallery ul {list-style-type: none;
+              margin-right: 10%;
+}
+#gallery li { display: inline; 
+     float: left;
+	 padding: 1%; 
+}
+#gallery img { border-style: none;
+}
+#gallery a { text-decoration: none;
+             font-style: italic;  
+             color: #666666; 
+           
+}
+#gallery span { position: absolute;
+                left: -2500px;
+                top: -11px;
+}
+#gallery a:hover span {     
+			position: absolute;
+			margin-top:  -4%;
+			left: 760px; 
+			text-align: center; 
+}
+
+@media only screen and (max-width: 64em) {
+
+    #wrapper { 
+            max-width: 77%;
+           margin-left: auto;
+           margin-right: auto;
+    }
+#gallery a:hover span {     
+    display: none;
+}
+}
+@media only screen and (max-width: 37.5em) {
+    .navbar {
+        overflow: hidden;
+        background-color: #000;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: center; 
+        left: 0;
+        color: #fcfcfc;
+        text-transform: uppercase;
+        padding: 3px;
+        letter-spacing: 1px;
+        height: 12%;
+        font-size: 80%;
+        z-index:1;
+}
+    .navbar a {
+        padding-top: 0;
+        display: block;
+        margin-bottom: -2%;
+    } 
+    header {
+        margin-top: 20.6%;
+    }
+    #wrapper { 
+            max-width: 75%;
+           margin-left: auto;
+           margin-right: auto;
+    }
+#gallery ul {list-style-type: none;
+              margin-right: 5%;
+    width: 50%;
+}
+
+}
+
+
+    
